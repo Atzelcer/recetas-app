@@ -11,7 +11,7 @@ describe("API Recetas", () => {
 
   test("GET /api/recetas/:id - retorna receta existente", async () => {
     const res = await request(app).get("/api/recetas/1");
-    expect(res.statusCode).toBe(200);
+    expect(res.statusCode).toBe(999); // falla a propósito
     expect(res.body).toHaveProperty("nombre");
     expect(res.body).toHaveProperty("ingredientes");
   });
