@@ -20,6 +20,13 @@ const recetas = [
     tiempo: 30,
     categoria: "desayuno",
   },
+  {
+    id: 4,
+    nombre: "Tucumanas",
+    ingredientes: ["masa", "carne", "cebolla", "ají"],
+    tiempo: 60,
+    categoria: "almuerzo",
+  },
 ];
 
 module.exports = { recetas };
